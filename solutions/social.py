@@ -39,10 +39,10 @@ tweets = [
 
 if __name__ == "__main__":
 
-    print("------------------")
-    print("PROCESSING SOCIAL MEDIA DATA...")
-    print("------------------")
-    print(tweets)
+    #print("------------------")
+    #print("PROCESSING SOCIAL MEDIA DATA...")
+    #print("------------------")
+    #print(tweets)
 
     # breakpoint()
 
