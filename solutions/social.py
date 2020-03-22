@@ -59,6 +59,9 @@ if __name__ == "__main__":
     # ... "print" the screen name of the user who authored that tweet,
     # ... each on a separate line (i.e. "person2", then "person3"):
 
+    for tweet in tweets:
+        if "@sandwhoa" in tweet["full_text"]:
+            print(tweet["user"]["screen_name"])
 
     #
     # QUESTION C
